@@ -1,3 +1,5 @@
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bluefaec/ui-libs/main/libs/vape"))()
+
 local win = lib:Window("PREVIEW",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)
 
 local tab = win:Tab("Tab 1")
